@@ -10,7 +10,12 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 @Entity
-@Table(name = "appointments")
+@Table(name = "appointments",
+        indexes = {
+                @Index(name = "idx_apt_loc_date", columnList = "location_id, appointment_date"),
+                @Index(name = "idx_apt_tech_date", columnList = "technician_id, appointment_date"),
+                @Index(name = "idx_apt_booking_code", columnList = "booking_code")
+        })
 @Getter
 @Setter
 public class Appointment extends BaseEntity {
@@ -19,6 +24,9 @@ public class Appointment extends BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    @Column(name = "booking_code", length = 64)
+    private String bookingCode;
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "location_id")
     private Location location;
@@ -26,6 +34,15 @@ public class Appointment extends BaseEntity {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "customer_id")
     private Customer customer;
+
+    @Column(name = "customer_name", length = 255)
+    private String customerName;
+
+    @Column(name = "customer_phone", length = 50)
+    private String customerPhone;
+
+    @Column(name = "customer_email", length = 255)
+    private String customerEmail;
 
     /** NULL nếu khách không chọn thợ */
     @ManyToOne(fetch = FetchType.LAZY)
@@ -55,6 +72,33 @@ public class Appointment extends BaseEntity {
     @JoinColumn(name = "service_id")
     private Service service;
 
+    @Column(name = "service_names", length = 500)
+    private String serviceNames;
+
     @Column(nullable = false, precision = 12, scale = 2)
-    private BigDecimal price;
+    private BigDecimal price = BigDecimal.ZERO;
+
+    public Integer getLocationId() {
+        return location != null ? location.getId() : null;
+    }
+
+    public String getLocationName() {
+        return location != null ? location.getName() : null;
+    }
+
+    public Integer getTechnicianId() {
+        return technician != null ? technician.getId() : null;
+    }
+
+    public String getTechnicianName() {
+        return technician != null ? technician.getFullName() : null;
+    }
+
+    public Integer getServiceId() {
+        return service != null ? service.getId() : null;
+    }
+
+    public String getServiceName() {
+        return service != null ? service.getName() : (serviceNames != null ? serviceNames : null);
+    }
 }
