@@ -1,0 +1,819 @@
+{
+ "locations": [
+  {
+   "ref": 597,
+   "name": "Nailroom Quang Trung - Hà Nội",
+   "city": "Hà Nội",
+   "address": "20 Quang Trung, Phường Cửa Nam, Hà Nội",
+   "phone": "0965695 055"
+  },
+  {
+   "ref": 606,
+   "name": "Nailroom Quận 3 - Pasteur (Cơ sở Võ Thị Sáu cũ)",
+   "city": "TP Hồ Chí Minh",
+   "address": "280 Pasteur, Phường Xuân Hòa",
+   "phone": "0961354 286"
+  },
+  {
+   "ref": 607,
+   "name": "Nailroom Hoàng Minh Giám - Hà Nội",
+   "city": "Hà Nội",
+   "address": "29 N7B Trung Hòa - Nhân Chính, Phường Yên Hòa, Hà Nội",
+   "phone": "0368389 839"
+  },
+  {
+   "ref": 1435,
+   "name": "Nailroom Nguyễn Văn Tráng - Quận 1 - HCM",
+   "city": "TP Hồ Chí Minh",
+   "address": "62 Nguyễn Văn Tráng, Phường Bến Thành, TP Hồ Chí Minh",
+   "phone": "0961144 186"
+  },
+  {
+   "ref": 1452,
+   "name": "Nailroom Hoàng Cầu - Hà Nội",
+   "city": "Hà Nội",
+   "address": "67 Ngõ Giếng (đi ngõ 31 Hoàng Cầu vào)",
+   "phone": "0868864 966"
+  },
+  {
+   "ref": 1458,
+   "name": "Nailroom Hoàng Ngân - Hà Nội",
+   "city": "Hà Nội",
+   "address": "138 Hoàng Ngân, Phường Yên Hòa, Hà Nội",
+   "phone": "0395937 538"
+  },
+  {
+   "ref": 1459,
+   "name": "Nailroom Nguyễn Thị Thập - Q7 - HCM",
+   "city": "TP Hồ Chí Minh",
+   "address": "539B Nguyễn Thị Thập, Phường Tân Hưng, TP Hồ Chí Minh",
+   "phone": "0395965 834"
+  },
+  {
+   "ref": 1464,
+   "name": "Nailroom Bình Thạnh - HCM",
+   "city": "TP Hồ Chí Minh",
+   "address": "164 Nguyễn Văn Thương, Phường Thạnh Mỹ Tây, TP Hồ Chí Minh",
+   "phone": "0385158 589"
+  },
+  {
+   "ref": 1468,
+   "name": "Nailroom Thảo Điền - HCM",
+   "city": "TP Hồ Chí Minh",
+   "address": "17 Xuân Thuỷ, Phường An Khánh, TP Hồ Chí Minh",
+   "phone": "0325999 719"
+  }
+ ],
+ "categories": [
+  {
+   "ref": 2599,
+   "name": "Dịch vụ móng",
+   "sortOrder": 1
+  },
+  {
+   "ref": 2628,
+   "name": "Eyelashes",
+   "sortOrder": 2
+  },
+  {
+   "ref": 2965,
+   "name": "Wax",
+   "sortOrder": 3
+  }
+ ],
+ "services": [
+  {
+   "categoryRef": 2599,
+   "name": "1. Chăm sóc móng (Nail care)",
+   "durationMinutes": 90,
+   "price": 0,
+   "description": "Bạn muốn làm móng tay, móng chân hay móng nối? Vui lòng ghi chú khi đặt lịch nhé."
+  },
+  {
+   "categoryRef": 2599,
+   "name": "CHÀ GÓT CHÂN",
+   "durationMinutes": 30,
+   "price": 250000,
+   "description": "220 - 280k tuỳ sản phẩm chăm sóc dùng kèm"
+  },
+  {
+   "categoryRef": 2599,
+   "name": "KÌM NAILROOM MITSHOUSE",
+   "durationMinutes": 30,
+   "price": 112000,
+   "description": ""
+  },
+  {
+   "categoryRef": 2628,
+   "name": "2. Nối mi classic (Eyelashes extension)",
+   "durationMinutes": 70,
+   "price": 380000,
+   "description": ""
+  },
+  {
+   "categoryRef": 2628,
+   "name": "3. Uốn mi (Eyelashes curling)",
+   "durationMinutes": 45,
+   "price": 220000,
+   "description": "Dùng thuốc uốn mi Hàn: 250kThuốc uốn mi Việt - Trung: 200k"
+  },
+  {
+   "categoryRef": 2628,
+   "name": "Brow Lamination",
+   "durationMinutes": 60,
+   "price": 400000,
+   "description": ""
+  },
+  {
+   "categoryRef": 2628,
+   "name": "Combo Uốn + Phủ",
+   "durationMinutes": 60,
+   "price": 370000,
+   "description": ""
+  },
+  {
+   "categoryRef": 2628,
+   "name": "Nối mi thiết kế",
+   "durationMinutes": 90,
+   "price": 420000,
+   "description": ""
+  },
+  {
+   "categoryRef": 2628,
+   "name": "Tháo mi",
+   "durationMinutes": 15,
+   "price": 40000,
+   "description": ""
+  },
+  {
+   "categoryRef": 2965,
+   "name": "Định Hình Chân Mày",
+   "durationMinutes": 45,
+   "price": 400000,
+   "description": ""
+  },
+  {
+   "categoryRef": 2965,
+   "name": "Wax",
+   "durationMinutes": 30,
+   "price": 0,
+   "description": "Wax mép, nách, tay, chân"
+  },
+  {
+   "categoryRef": 2965,
+   "name": "Wax lông mày",
+   "durationMinutes": 30,
+   "price": 180000,
+   "description": ""
+  }
+ ],
+ "technicians": [
+  {
+   "locationRef": 606,
+   "fullName": "Berry Q3",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1459,
+   "fullName": "C Tú_QuậN 7",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 606,
+   "fullName": "Chị Thảo",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1459,
+   "fullName": "Chi _Quận 7",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 607,
+   "fullName": "Dương_Hmg",
+   "avatarUrl": "https://salonhero-wasabi.becdn.net/Operators/559/kotgu2l4ewgg-300x300.jpg",
+   "phone": null
+  },
+  {
+   "locationRef": 1435,
+   "fullName": "Duyên_Q1",
+   "avatarUrl": "https://salonhero-wasabi.becdn.net/Operators/559/5641-e96x4ajcv5s4-300x300.jpg",
+   "phone": null
+  },
+  {
+   "locationRef": 606,
+   "fullName": "Duyên_Q1",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1468,
+   "fullName": "Hân _ Quận 2",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1459,
+   "fullName": "HằNg_QuậN 7",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1452,
+   "fullName": "Hiền_Hoàng Cầu",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1435,
+   "fullName": "Hiếu Điều",
+   "avatarUrl": "https://salonhero-wasabi.becdn.net/Operators/559/6160-udi2lv08lx5t-300x300.jpg",
+   "phone": null
+  },
+  {
+   "locationRef": 1452,
+   "fullName": "Hoa_Hoàng Cầu",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1435,
+   "fullName": "Huyền Q1",
+   "avatarUrl": "https://salonhero-wasabi.becdn.net/Operators/559/6110-c7uipk66udu5-300x300.jpg",
+   "phone": null
+  },
+  {
+   "locationRef": 606,
+   "fullName": "Huyền_Q1",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 597,
+   "fullName": "Linh Bé_ Nail Qt",
+   "avatarUrl": null,
+   "phone": "0395667363"
+  },
+  {
+   "locationRef": 1459,
+   "fullName": "Linh B_Quận 7",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1435,
+   "fullName": "Linh Q1",
+   "avatarUrl": "https://salonhero-wasabi.becdn.net/Operators/559/6192-e9vdtq5ax11s-300x300.jpg",
+   "phone": null
+  },
+  {
+   "locationRef": 597,
+   "fullName": "Linh95Nail",
+   "avatarUrl": "https://salonhero-wasabi.becdn.net/Operators/559/6168-hpgxkjleopom-300x300.jpg",
+   "phone": "0399993223"
+  },
+  {
+   "locationRef": 607,
+   "fullName": "Linh_Hmg",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 606,
+   "fullName": "Linh_Q1",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1459,
+   "fullName": "Ly _ Quận 7",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1452,
+   "fullName": "Mai Linh_Hoàng Cầu",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1435,
+   "fullName": "Mia_Q1",
+   "avatarUrl": "https://salonhero-wasabi.becdn.net/Operators/559/4660-0cp4lwc7vvzi-300x300.jpg",
+   "phone": null
+  },
+  {
+   "locationRef": 606,
+   "fullName": "Mia_Q1",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 606,
+   "fullName": "Mickey Q3",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1468,
+   "fullName": "Minh_Quận 2",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 597,
+   "fullName": "Nga Nail - Qt",
+   "avatarUrl": null,
+   "phone": "0332123682"
+  },
+  {
+   "locationRef": 1464,
+   "fullName": "Ngân_ Bình Thạnh",
+   "avatarUrl": "https://salonhero-wasabi.becdn.net/Operators/559/5147-hjyjhxr5z8hn-300x300.jpg",
+   "phone": null
+  },
+  {
+   "locationRef": 1468,
+   "fullName": "Ngân_Quận2",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1458,
+   "fullName": "Nhài_ Hoàng Ngân",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 606,
+   "fullName": "Nhiên_Q1",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1435,
+   "fullName": "Nhiên_Q1",
+   "avatarUrl": "https://salonhero-wasabi.becdn.net/Operators/559/6087-so947xlbsemp-300x300.jpg",
+   "phone": null
+  },
+  {
+   "locationRef": 1459,
+   "fullName": "Nhi_QuậN 7",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1468,
+   "fullName": "Nhung_Quận2",
+   "avatarUrl": "https://salonhero-wasabi.becdn.net/Operators/559/6023-nrb0z4a1ylpx-300x300.jpg",
+   "phone": null
+  },
+  {
+   "locationRef": 597,
+   "fullName": "Oanh Nail_Qt",
+   "avatarUrl": null,
+   "phone": "0383025526"
+  },
+  {
+   "locationRef": 607,
+   "fullName": "Thanh_Hmg",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1468,
+   "fullName": "Thiên_Quận2",
+   "avatarUrl": "https://salonhero-wasabi.becdn.net/Operators/559/u4j9k6f84rg4-300x300.jpg",
+   "phone": null
+  },
+  {
+   "locationRef": 1468,
+   "fullName": "Thi_Quận2",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 597,
+   "fullName": "Thư Nail - Qt",
+   "avatarUrl": null,
+   "phone": "0936231717"
+  },
+  {
+   "locationRef": 1468,
+   "fullName": "Thúy_Quận2",
+   "avatarUrl": "https://salonhero-wasabi.becdn.net/Operators/559/5959-mw3o2w1i50az-300x300.jpg",
+   "phone": null
+  },
+  {
+   "locationRef": 606,
+   "fullName": "Tiên_Q1",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1435,
+   "fullName": "Tiên_Q1",
+   "avatarUrl": "https://salonhero-wasabi.becdn.net/Operators/559/6005-jpkqz4auwe1a-300x300.jpg",
+   "phone": null
+  },
+  {
+   "locationRef": 1459,
+   "fullName": "Tlinh_QuậN 7",
+   "avatarUrl": "https://salonhero-wasabi.becdn.net/Operators/559/z481elsz19ci-300x300.jpg",
+   "phone": null
+  },
+  {
+   "locationRef": 606,
+   "fullName": "Trang",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 607,
+   "fullName": "Trang Chacha_Hmg",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 597,
+   "fullName": "Trang Mi_Qt",
+   "avatarUrl": null,
+   "phone": "0773356666"
+  },
+  {
+   "locationRef": 1464,
+   "fullName": "Trinh _ Bình Thạnh",
+   "avatarUrl": "https://salonhero-wasabi.becdn.net/Operators/559/5139-l5x0z38f7wbt-300x300.jpg",
+   "phone": null
+  },
+  {
+   "locationRef": 1468,
+   "fullName": "Trinh_Quận 2",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1468,
+   "fullName": "Trúc_Quận2",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1468,
+   "fullName": "Uyên_Quận2",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1464,
+   "fullName": "Vân",
+   "avatarUrl": null,
+   "phone": null
+  },
+  {
+   "locationRef": 1464,
+   "fullName": "Vi Lê_ Bình Thạnh",
+   "avatarUrl": "https://salonhero-wasabi.becdn.net/Operators/559/640qy6zbn85f-300x300.jpg",
+   "phone": null
+  }
+ ],
+ "workingHours": {
+  "597": {
+   "0": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "1": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "2": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "3": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "4": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "5": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "6": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   }
+  },
+  "606": {
+   "0": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "1": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "2": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "3": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "4": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "5": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "6": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   }
+  },
+  "607": {
+   "0": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "1": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "2": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "3": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "4": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "5": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "6": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   }
+  },
+  "1435": {
+   "0": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "1": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "2": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "3": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "4": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "5": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "6": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   }
+  },
+  "1452": {
+   "0": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "1": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "2": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "3": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "4": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "5": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "6": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   }
+  },
+  "1458": {
+   "0": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "1": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "2": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "3": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "4": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "5": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "6": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   }
+  },
+  "1459": {
+   "0": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "1": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "2": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "3": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "4": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "5": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "6": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   }
+  },
+  "1464": {
+   "0": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "1": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "2": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "3": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "4": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "5": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "6": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   }
+  },
+  "1468": {
+   "0": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "1": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "2": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "3": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "4": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "5": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   },
+   "6": {
+    "isWorking": true,
+    "start": "09:00:00",
+    "end": "19:30:00"
+   }
+  }
+ }
+}
